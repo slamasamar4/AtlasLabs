@@ -1,6 +1,5 @@
 const http = require('http');
-const app = require('./app'); // Assuming app.js is in the same directory
-
+const app = require('./app'); 
 app.set('port', process.env.PORT || 3001);
 
 const server = http.createServer(app);
